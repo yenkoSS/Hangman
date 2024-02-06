@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gochi Hand', sans-serif;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFEE;
+
+}
+
+.heading {
+    font-size:64px;
+    letter-spacing: 5px;
+    color:rgba(0, 0, 0, 0.534);
+}
+
+.text-muted {
+    color:rgb(36, 36, 36);
+    font-family: 'Mina', sans-serif;
+    text-align: justify;
+}
+
+.text-word {
+    font-size:30px;
+    letter-spacing: 5px;
+    margin-bottom:60px;
+}
+
+.text-error {
+    font-family: 'Mina', sans-serif;
+    font-size:18px;
+    color:red;
+    margin-bottom: 40px;
+}
+.container {
+    padding-top:70px;
+    width: 800px;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stage {
+    width:200px;
+    margin-bottom:50px;
+}
+
+
+.btn {
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right:25px;
+    padding-left:25px;
+    font-family: 'Mina', sans-serif;
+    text-transform: uppercase;
+    font-size:16px;
+    letter-spacing: 5px;
+    background:none;
+    border:1px solid rgba(0, 0, 0, 0.377);
+    margin-top: 30px;
+}
+
+.hidden {
+    display:none !important;
+}
+
+footer {
+    padding-top:50px;
+    margin-bottom:10px;
+}
+
+
+.input-box {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+
+.input-box label {
+    font-size:18px;
+    letter-spacing: 1px;;
+    margin-bottom:20px;
+}
+
+.input-box input {
+    padding:10px;
+    font-family: 'Mina', sans-serif;
+    letter-spacing: 2px;
+    font-size:18px;;
+    transition:all 0.2s;
+}
+
+.input-box input:focus {
+    transform: scale(1.05);
+}
