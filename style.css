@@ -155,9 +155,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 576px) and (-webkit-max-device-pixel-ratio: 4) {
+@media screen and (max-width: 576px) {
     html {
-        font-size: 38%;
+        font-size: 30%
     }
 }
 
