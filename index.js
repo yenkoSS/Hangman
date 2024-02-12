@@ -147,6 +147,7 @@ btnCheckEl.addEventListener('click', function()  {
         } else {
             lives -= 1
             updateDrawing(lives)
+            inputEl.value = ''
         }
 
         if (lives === 0) {

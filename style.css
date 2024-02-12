@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
 
+/* General */
+
 * {
     margin:0;
     padding:0;
@@ -9,10 +11,15 @@
 
 html {
     font-family: 'Gochi Hand', sans-serif;
+    font-size:62.5%;
 }
+
+
 
 body {
     display:flex;
+    height: 100vh;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,90 +27,138 @@ body {
 
 }
 
-.heading {
-    font-size:64px;
-    letter-spacing: 5px;
-    color:rgba(0, 0, 0, 0.534);
-}
-
-.text-muted {
-    color:rgb(36, 36, 36);
-    font-family: 'Mina', sans-serif;
-    text-align: justify;
-}
-
-.text-word {
-    font-size:30px;
-    letter-spacing: 5px;
-    margin-bottom:60px;
-}
-
-.text-error {
-    font-family: 'Mina', sans-serif;
-    font-size:18px;
-    color:red;
-    margin-bottom: 40px;
-}
 .container {
-    padding-top:70px;
-    width: 800px;
-    height:90vh;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    width: 80rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.stage {
-    width:200px;
-    margin-bottom:50px;
+/* Header */
+
+header {
+    padding-bottom: 2rem;
 }
 
+.heading {
+    font-size:6.4rem;
+    letter-spacing: .5rem;
+    color:rgba(0, 0, 0, 0.534);
 
-.btn {
-    padding-top:15px;
-    padding-bottom: 15px;
-    padding-right:25px;
-    padding-left:25px;
+}
+
+main {
+    padding-top:3rem;
+    padding-bottom:3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-muted {
+    color:rgb(36, 36, 36);
     font-family: 'Mina', sans-serif;
-    text-transform: uppercase;
-    font-size:16px;
-    letter-spacing: 5px;
-    background:none;
-    border:1px solid rgba(0, 0, 0, 0.377);
-    margin-top: 30px;
+    text-align: justify;
+    font-size:1.6rem;
 }
 
 .hidden {
     display:none !important;
 }
 
-footer {
-    padding-top:50px;
-    margin-bottom:10px;
+.text-word {
+    font-size:3rem;
+    letter-spacing: .5rem;
+    margin-bottom:6rem;
+}
+
+.text-error {
+    font-family: 'Mina', sans-serif;
+    font-size:1.8rem;
+    color:red;
+    margin-bottom: 4rem;
+}
+
+
+
+.stage {
+    width:20rem;
+    margin-bottom:5rem;
+}
+
+
+.btn {
+    padding-top:1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right:2.5rem;
+    padding-left:2.5rem;
+    font-family: 'Mina', sans-serif;
+    text-transform: uppercase;
+    font-size:1.6rem;
+    letter-spacing: .5rem;
+    background:none;
+    border:1px solid rgba(0, 0, 0, 0.377);
+    margin-top:3rem;
 }
 
 
 .input-box {
     display:flex;
     flex-direction: column;
-    margin-bottom:20px;
+    margin-bottom:2rem;
 }
 
 .input-box label {
-    font-size:18px;
-    letter-spacing: 1px;;
-    margin-bottom:20px;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    margin-bottom:2rem;
 }
 
 .input-box input {
-    padding:10px;
+    padding:1rem;
     font-family: 'Mina', sans-serif;
     letter-spacing: 2px;
-    font-size:18px;;
+    font-size:1.8rem;
     transition:all 0.2s;
 }
 
 .input-box input:focus {
     transform: scale(1.05);
 }
+
+
+/* FOOTER */
+
+footer {
+    padding-top:2rem;
+    font-size: 1.6rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        width: 55rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 38%;
+    }
+}
+
+
+

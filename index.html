@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="container">
+      <header>
         <h1 class="heading">Hangman!</h1>
+      </header>
+      <main>
         <img src="img/6lives.png" alt="" class="stage">
         <p class="text-muted">The word to guess is represented by a row of dashes representing each letter or number of the word. 
             Rules may permit or forbid proper nouns, such as names, places, brands, or slang. 
@@ -30,11 +35,12 @@
         </div>
         <button class="btn btn-check hidden">Check</button>
         <button class="btn btn-play">Play</button>
-        <button class="btn btn-playAgain hidden">Play again</button>    
-    </div>
-    <footer>
+        <button class="btn btn-playAgain hidden">Play again</button> 
+      </main>        
+      <footer>
         <small></small>
-    </footer>
+    </footer>     
+    </div>  
 	<script src="index.js"></script>
   </body>
 </html>
