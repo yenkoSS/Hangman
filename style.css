@@ -3,7 +3,9 @@
 
 /* General */
 
-* {
+*,
+*::after,
+*::before {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -28,8 +30,7 @@ body {
 }
 
 .container {
-    padding-top:3rem;
-    padding-bottom: 3rem;
+    padding:3rem;
     width: 80rem;
     display:flex;
     flex-direction: column;
