@@ -1,7 +1,3 @@
-Creating a README for a JavaScript Hangman game project on GitHub is a great way to provide a comprehensive guide for users and contributors. Here’s an example README for your Hangman game project:
-
----
-
 # JavaScript Hangman Game
 
 ## Overview
