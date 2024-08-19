@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mina&display=swap");
+
+/* General */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Gochi Hand", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffee;
+}
+
+.container1 {
+  padding: 3rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+
+header {
+  padding-bottom: 2rem;
+}
+
+.heading {
+  font-size: 6.4rem;
+  letter-spacing: 0.5rem;
+  color: rgba(0, 0, 0, 0.534);
+}
+
+main {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-muted {
+  color: rgb(36, 36, 36);
+  font-family: "Mina", sans-serif;
+  text-align: justify;
+  font-size: 1.6rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.text-word {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 6rem;
+}
+
+.text-error {
+  font-family: "Mina", sans-serif;
+  font-size: 1.8rem;
+  color: red;
+  margin-bottom: 4rem;
+}
+
+.stage {
+  width: 15rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  font-family: "Mina", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.5rem;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  margin-top: 3rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.input-box label {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.input-box input {
+  padding: 1rem;
+  font-family: "Mina", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+
+.input-box input:focus {
+  transform: scale(1.05);
+}
+
+small {
+  font-size: 1.4rem;
+}
+
+/* FOOTER */
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 40%;
+  }
+}
